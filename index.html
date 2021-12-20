@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Registraion Form</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <h1 class="text-center">  <h1>New Driving Liecense</h1>
+      <h3>Lets get started</h3>
+      <h2> Add your details(As per your registered records)</h2></h1>
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <select name="Place of residence" value="Place of residence" id="place" >
+            <option value="disabled">Place of residence</option>
+            <option value="Patna">Patna</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Goa">Goa</option>
+            <option value="Up">Up</option>
+            </select><br>
+        </div>
+
+
+        <div class="input-group">
+          <label >Nature of driving license </label> 
+            <input type="radio" name="private"> Private
+            <input type="radio" name="Commercial"> Commercial
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <div class="input-group">
+        <select name="" value="" id="">
+          <option value="disabled">Required class of driving lisence</option>
+          <option value="Two-wheeler">Two-wheeler</option>
+          <option value="Three-wheeler">Three-wheeler</option>
+          <option value="Both">Both</option>
+         </select>
+        </div>
+
+        <div class="input-group">
+          <select name=" required class" value="" id="">
+            <option value=" disabled">Required class of driving lisence</option>
+            <option value="learning driving liesense">learning driving liesense</option>
+            <option value="commercial driving lisence">Commercial driving lisence</option>
+            <option value="permanent driving lisence">Permanent </option>
+            <option value="Both (permanent and learning lisence)">Both (permanent and learning lisence)</option>
+         </select>
+        </div>
+
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+
+      <div class="form-step">
+        <div class="input-group">
+          <select name="" value="" id="">
+            <option value="disabled">Identity proof</option>
+            <option value="Adhaar card">Adhaar card</option>
+            <option value="Pan card">Pan Card</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+          <select name="" value="" id="">
+            <option value="disabled">Identity proof</option>
+            <option value="Adhaar card">Adhaar card</option>
+            <option value="Pan card">Pan Card</option>
+            </select>
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+     
+      </div>
+
+          <!-- Progress bar -->
+          <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            
+            <div
+              class="progress-step progress-step-active"
+            ></div>
+            <div class="progress-step" ></div>
+            <div class="progress-step" ></div>
+            
+          </div>
+    </form>
+  </body>
+</html>
